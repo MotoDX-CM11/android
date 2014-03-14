@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="bitbucket" fetch="https://bitbucket.org/motoroi" />
+  <remote  name="omapzoom" fetch="git://git.omapzoom.org/" />
+
+  <!-- CM removals -->
+  <remove-project name="CyanogenMod/android_bionic" />
+  <remove-project name="CyanogenMod/android_build" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="CyanogenMod/android_hardware_ti_omap3" />
+  <remove-project name="CyanogenMod/android_bootable_recovery" /> 
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wlan"/>
+  <remove-project name="CyanogenMod/android_vendor_cm"/>
+  <remove-project name="CyanogenMod/android_packages_services_Telephony"/>
+  <remove-project name="CyanogenMod/android_packages_apps_QuickSearchBox"/>
+  <remove-project name="CyanogenMod/android_external_qemu"/>
+  <remove-project name="CyanogenMod/android_external_qemu-pc-bios"/>
+  <remove-project name="CyanogenMod/android_packages_apps_VideoEditor"/>
+  <remove-project name="CyanogenMod/android_packages_apps_InCallUI"/>
+
+  <project path="bionic" name="Quarx2k/android_bionic" />
+  <project path="build" name="Quarx2k/android_build" revision="cm-11.0" />
+  <project path="frameworks/av" name="Quarx2k/android_frameworks_av" />
+  <project path="frameworks/base" name="Quarx2k/android_frameworks_base" />
+  <project path="frameworks/native" name="Quarx2k/android_frameworks_native" />
+  <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" revision="jellybean" />
+  <project path="bootable/recovery" name="xdarklight/Team-Win-Recovery-Project" revision="twrp2.7" />
+  <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" revision="jellybean" /> 
+  <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" revision="gingerbread" />
+  <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" revision="master" />
+  <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" />
+  <project path="system/core" name="Quarx2k/android_system_core" revision="cm-11.0" />
+  <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony" />
+  <project path="packages/apps/Settings" name="Quarx2k/android_packages_apps_Settings" />
+  <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" revision="cm-11.0" />
+  <project path="vendor/cm" name="Quarx2k/android_vendor_cm" />
+  <project path="packages/services/Telephony" name="Quarx2k/android_packages_services_Telephony" />
+  <project path="packages/apps/InCallUI" name="Quarx2k/android_packages_apps_InCallUI" />
+
+  <!-- Shadow parts -->
+  <!-- <project path="shadow-kernel" name="mksy/shadow-kernel" revision="2.6.32" /> -->
+  <project path="shadow-kernel" name="Quarx2k/jordan-kernel" revision="AeroKernel" />
+  <project path="device/moto/shadow" name="MotoDX-CM11/android_device_moto_shadow" revision="kitkat" />
+  <project path="vendor/motorola" name="MotoDX-CM11/proprietary_vendor_motorola" revision="kitkat" />
+  <project path="device/moto/shadow-common" name="MotoDX-CM11/android_device_moto_shadow-common" revision="kitkat" /> <!--
+  <project path="device/moto/shadow" remote="bitbucket" name="shadow" revision="kitkat" />
+  <project path="vendor/motorola" remote="bitbucket" name="vendor_motorola" revision="kitkat" />
+  <project path="device/moto/shadow-common" remote="bitbucket" name="shadow-common" revision="kitkat" /> -->
+
+</manifest>
