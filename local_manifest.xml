@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="bitbucket" fetch="https://bitbucket.org/motoroi" />
   <remote  name="omapzoom" fetch="git://git.omapzoom.org/" />
 
   <!-- CM removals -->
@@ -50,8 +49,5 @@
   <project path="device/moto/shadow" name="MotoDX-CM11/android_device_moto_shadow" revision="kitkat" />
   <project path="vendor/motorola" name="MotoDX-CM11/proprietary_vendor_motorola" revision="kitkat" />
   <project path="device/moto/shadow-common" name="MotoDX-CM11/android_device_moto_shadow-common" revision="kitkat" /> <!--
-  <project path="device/moto/shadow" remote="bitbucket" name="shadow" revision="kitkat" />
-  <project path="vendor/motorola" remote="bitbucket" name="vendor_motorola" revision="kitkat" />
-  <project path="device/moto/shadow-common" remote="bitbucket" name="shadow-common" revision="kitkat" /> -->
 
 </manifest>
