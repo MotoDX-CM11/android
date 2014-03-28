@@ -30,7 +30,7 @@
   <project path="frameworks/base" name="Quarx2k/android_frameworks_base" />
   <project path="frameworks/native" name="Quarx2k/android_frameworks_native" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" revision="jellybean" />
-  <project path="bootable/recovery" name="xdarklight/Team-Win-Recovery-Project" revision="twrp2.7" />
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-4.4"  />
   <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" revision="jellybean" /> 
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" revision="gingerbread" />
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" revision="master" />
