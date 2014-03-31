@@ -12,7 +12,8 @@
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_hardware_ti_omap3" />
-  <remove-project name="CyanogenMod/android_bootable_recovery" /> 
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_hardware_ti_wlan"/>
   <remove-project name="CyanogenMod/android_vendor_cm"/>
@@ -46,6 +47,7 @@
   <project path="shadow-kernel" name="Quarx2k/jordan-kernel" revision="AeroKernel" />
   <project path="device/moto/shadow" name="MotoDX-CM11/android_device_moto_shadow" revision="kitkat" />
   <project path="vendor/motorola" name="MotoDX-CM11/proprietary_vendor_motorola" revision="kitkat" />
-  <project path="device/moto/shadow-common" name="MotoDX-CM11/android_device_moto_shadow-common" revision="kitkat" /> <!--
+  <project path="device/moto/shadow-common" name="MotoDX-CM11/android_device_moto_shadow-common" revision="kitkat" />
+  <project path="frameworks/opt/telephony" name="MotoDX-CM11/android_frameworks_opt_telephony" />
 
 </manifest>
