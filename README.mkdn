@@ -1,6 +1,25 @@
 CyanogenMod
 ===========
 
+Getting Started
+---------------
+
+To get started with Android/CyanogenMod, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the CyanogenMod trees, use a command like this:
+
+    repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
+
+Then copy local_manifest.xml from this git to .repo/local_manifests/ and then to sync up:
+
+    repo sync
+
+After syncing go to shadow-kernel/arch/arm/configs/ and rename mb526_cm10.1_defconfig to shadow_cm11_defconfig, now you can build (please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions).
+When you got zip you must replace zImage in system/bootstrap/2nd-boot/ by this [zImage](https://github.com/MotoDX-CM11/AeroKernel).
+For more information on this Github Organization and how it is structured, 
+please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
+
 Submitting Patches
 ------------------
 Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
@@ -21,26 +40,6 @@ Make your changes and commit with a detailed message, starting with what you are
 Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
 
 To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.org/)
-
-
-Getting Started
----------------
-
-To get started with Android/CyanogenMod, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
-
-To initialize your local repository using the CyanogenMod trees, use a command like this:
-
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
-
-Then to sync up:
-
-    repo sync
-
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
-
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
 
 Buildbot
 --------
