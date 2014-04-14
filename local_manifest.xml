@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+cd <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
   <remote  name="omapzoom" fetch="git://git.omapzoom.org/" />
@@ -18,11 +18,11 @@
   <remove-project name="CyanogenMod/android_hardware_ti_wlan"/>
   <remove-project name="CyanogenMod/android_vendor_cm"/>
   <remove-project name="CyanogenMod/android_packages_services_Telephony"/>
-  <remove-project name="CyanogenMod/android_packages_apps_QuickSearchBox"/>
   <remove-project name="CyanogenMod/android_external_qemu"/>
   <remove-project name="CyanogenMod/android_external_qemu-pc-bios"/>
   <remove-project name="CyanogenMod/android_packages_apps_VideoEditor"/>
   <remove-project name="CyanogenMod/android_packages_apps_InCallUI"/>
+  <remove-project name="CyanogenMod/android_packages_apps_Stk"/>
 
   <project path="bionic" name="Quarx2k/android_bionic" />
   <project path="build" name="Quarx2k/android_build" revision="cm-11.0" />
