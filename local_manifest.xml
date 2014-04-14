@@ -1,4 +1,4 @@
-cd <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
   <remote  name="omapzoom" fetch="git://git.omapzoom.org/" />
