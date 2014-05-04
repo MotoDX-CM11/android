@@ -25,7 +25,6 @@
   <remove-project name="CyanogenMod/android_packages_apps_Stk"/>
 
   <project path="bionic" name="Quarx2k/android_bionic" />
-  <project path="build" name="Quarx2k/android_build" revision="cm-11.0" />
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av" />
   <project path="frameworks/base" name="Quarx2k/android_frameworks_base" />
   <project path="frameworks/native" name="Quarx2k/android_frameworks_native" />
@@ -45,6 +44,7 @@
   <!-- Shadow parts -->
   <!-- <project path="shadow-kernel" name="mksy/shadow-kernel" revision="2.6.32" /> -->
   <project path="shadow-kernel" name="Quarx2k/jordan-kernel" revision="AeroKernel" />
+  <project path="build" name="MotoDX-CM11/android_build" revision="cm-11.0" />
   <project path="device/moto/shadow" name="MotoDX-CM11/android_device_moto_shadow" revision="kitkat" />
   <project path="vendor/motorola" name="MotoDX-CM11/proprietary_vendor_motorola" revision="kitkat" />
   <project path="device/moto/shadow-common" name="MotoDX-CM11/android_device_moto_shadow-common" revision="kitkat" />
