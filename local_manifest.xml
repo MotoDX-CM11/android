@@ -23,6 +23,8 @@
   <remove-project name="CyanogenMod/android_packages_apps_VideoEditor"/>
   <remove-project name="CyanogenMod/android_packages_apps_InCallUI"/>
   <remove-project name="CyanogenMod/android_packages_apps_Stk"/>
+  <remove-project name="CyanogenMod/android_art"/>
+  <remove-project name="CyanogenMod/android_frameworks_rs"/>
 
   <project path="bionic" name="Quarx2k/android_bionic" />
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av" />
@@ -40,6 +42,11 @@
   <project path="vendor/cm" name="Quarx2k/android_vendor_cm" />
   <project path="packages/services/Telephony" name="Quarx2k/android_packages_services_Telephony" />
   <project path="packages/apps/InCallUI" name="Quarx2k/android_packages_apps_InCallUI" />
+  <project path="frameworks/rs" name="Quarx2k/android_frameworks_rs" groups="pdk" />
+  <project path="art" name="Quarx2k/android_art" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="JustArchi/linaro.git"  remote="github" revision="4.8-eabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="JustArchi/linaro.git" remote="github" revision="4.8-androideabi" />
 
   <!-- Shadow parts -->
   <!-- <project path="shadow-kernel" name="mksy/shadow-kernel" revision="2.6.32" /> -->
