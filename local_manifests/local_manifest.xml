@@ -30,7 +30,7 @@
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av" />
   <project path="frameworks/base" name="Quarx2k/android_frameworks_base" />
   <project path="frameworks/native" name="Quarx2k/android_frameworks_native" />
-  <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" revision="jellybean" />
+  <project path="hardware/ti/omap3" name="Quarx2k/android_hardware_ti_omap3-compat" />
   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-4.4"  />
   <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" revision="jellybean" /> 
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" revision="gingerbread" />
