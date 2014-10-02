@@ -43,8 +43,8 @@
   <project path="frameworks/rs" name="Quarx2k/android_frameworks_rs" groups="pdk" />
   <project path="art" name="Quarx2k/android_art" />
 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="JustArchi/linaro.git"  remote="github" revision="4.8-eabi" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="JustArchi/linaro.git" remote="github" revision="4.8-androideabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="ArchiDroid/Toolchain.git"  remote="github" revision="linaro-4.8-arm-eabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="ArchiDroid/Toolchain.git" remote="github" revision="linaro-4.8-arm-linux-androideabi" />
 
   <!-- Shadow parts -->
   <!-- <project path="shadow-kernel" name="mksy/shadow-kernel" revision="2.6.32" /> -->
