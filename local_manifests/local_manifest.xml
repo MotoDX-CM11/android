@@ -42,7 +42,7 @@
   <project path="packages/apps/InCallUI" name="Quarx2k/android_packages_apps_InCallUI" />
   <project path="frameworks/rs" name="Quarx2k/android_frameworks_rs" groups="pdk" />
   <project path="art" name="Quarx2k/android_art" />
-
+  <project path="external/helper_cmupdaterincremental" name="xdarklight/android_external_helper_cmupdaterincremental" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="ArchiDroid/Toolchain.git"  remote="github" revision="linaro-4.8-arm-eabi" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="ArchiDroid/Toolchain.git" remote="github" revision="linaro-4.8-arm-linux-androideabi" />
 
