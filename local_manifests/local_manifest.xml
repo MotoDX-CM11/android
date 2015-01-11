@@ -20,6 +20,7 @@
   <remove-project name="CyanogenMod/android_external_qemu"/>
   <remove-project name="CyanogenMod/android_external_qemu-pc-bios"/>
   <remove-project name="CyanogenMod/android_packages_apps_VideoEditor"/>
+  <remove-project name="CyanogenMod/android_packages_apps_LockClock"/>
   <remove-project name="CyanogenMod/android_packages_apps_InCallUI"/>
   <remove-project name="CyanogenMod/android_packages_apps_Stk"/>
   <remove-project name="CyanogenMod/android_art"/>
