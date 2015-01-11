@@ -21,6 +21,7 @@
   <remove-project name="CyanogenMod/android_packages_apps_VideoEditor"/>
   <remove-project name="CyanogenMod/android_packages_apps_LockClock"/>
   <remove-project name="CyanogenMod/android_packages_apps_InCallUI"/>
+  <remove-project name="CyanogenMod/android_packages_apps_Mms"/>
   <remove-project name="CyanogenMod/android_packages_apps_Stk"/>
   <remove-project name="CyanogenMod/android_art"/>
   <remove-project name="CyanogenMod/android_frameworks_rs"/>
@@ -52,5 +53,6 @@
   <project path="vendor/motorola" name="MotoDX-CM11/proprietary_vendor_motorola" revision="kitkat" />
   <project path="device/moto/shadow-common" name="MotoDX-CM11/android_device_moto_shadow-common" revision="kitkat" />
   <project path="frameworks/opt/telephony" name="MotoDX-CM11/android_frameworks_opt_telephony" />
+  <project path="packages/apps/Mms" name="MotoDX-CM11/android_packages_apps_Mms" revision="cm-11.0" />
 
 </manifest>
