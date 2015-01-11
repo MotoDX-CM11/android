@@ -21,7 +21,7 @@
   <remove-project name="CyanogenMod/android_packages_apps_VideoEditor"/>
   <remove-project name="CyanogenMod/android_packages_apps_LockClock"/>
   <remove-project name="CyanogenMod/android_packages_apps_InCallUI"/>
-  <remove-project name="CyanogenMod/android_packages_apps_Mms"/>
+  <remove-project name="CyanogenMod/android_packages_apps_Mms-caf"/>
   <remove-project name="CyanogenMod/android_packages_apps_Stk"/>
   <remove-project name="CyanogenMod/android_art"/>
   <remove-project name="CyanogenMod/android_frameworks_rs"/>
